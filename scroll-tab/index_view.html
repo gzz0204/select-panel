@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>滚动导航栏选中效果</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li>
+                <a class="navbar-link" href="javascript:;" data-destination="anchor-one">One</a>
+            </li>
+            <li>
+                <a class="navbar-link" href="javascript:;" data-destination="anchor-two">Two</a>
+            </li>
+            <li>
+                <a class="navbar-link" href="javascript:;" data-destination="anchor-three">Three</a>
+            </li>
+            <li>
+                <a class="navbar-link" href="javascript:;" data-destination="anchor-four">Four</a>
+            </li>
+            <li>
+                <a class="navbar-link" href="javascript:;" data-destination="anchor-five">Five</a>
+            </li>
+            <li>
+                <a class="navbar-link" href="javascript:;" data-destination="anchor-six">Six</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="main-body">
+        <div class="cont-wrap">
+            <div class="introduce-box">
+                <p>向下滚动到指定标题出现在导航栏下方时，导航栏对应标题选中。</p>
+                <p>向上滚动到进入指定标题区域的尾部，即相应导航栏标题选中。</p>
+                <p>点击可滚动跳转到相应标题位置，并改变样式。</p>
+            </div>
+        </div>
+        <a id="anchor-one"></a>
+        <div class="cont-wrap">
+            <h3>One</h3>
+            <div class="cont-box">
+                One
+            </div>
+        </div>
+        <a id="anchor-two"></a>
+        <div class="cont-wrap">
+             <h3>Two</h3>
+            <div class="cont-box">
+                Two
+            </div>
+        </div>
+        <a id="anchor-three"></a>
+        <div class="cont-wrap">
+            <h3>Three</h3>
+            <div class="cont-box">
+                Three
+            </div>
+        </div>
+        <a id="anchor-four"></a>
+        <div class="cont-wrap">
+            <h3>Four</h3>
+            <div class="cont-box">
+                Four
+            </div>
+        </div>
+        <a id="anchor-five"></a>
+        <div class="cont-wrap">
+            <h3>Five</h3>
+            <div class="cont-box">
+                Five
+            </div>
+        </div>
+        <a id="anchor-six"></a>
+        <div class="cont-wrap">
+            <h3>Six</h3>
+            <div class="cont-box">
+                Six
+            </div>
+        </div>
+    </div>
+    <script src="js/lib/require.js" data-main="js/main"></script>
+</body>
+</html>
